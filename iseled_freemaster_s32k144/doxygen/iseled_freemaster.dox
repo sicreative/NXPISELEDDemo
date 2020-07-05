@@ -1,0 +1,68 @@
+/*!
+    @page iseled_freemaster_group ISELED Freemaster Demo
+    @brief Basic application that presents the project scenarios for S32 SDK
+    
+    ## Application description ##
+    _____
+    The purpose of this demo is to provide the user with an out-of-the box 
+    example application for S32K144 platform, using S32 SDK.
+    The project demonstrates ISELED communication
+    
+    ## Prerequisites ##
+    _____
+    To run the example you will need to have the following items:
+    - 1 S32K144 board
+    - 1 Power Adapter 12V (if the board cannot be powered from the USB port)
+    - 1 Personal Computer
+    - 1 Open SDA
+    
+    ## Boards supported ##
+    _____
+    The following boards are supported by this application:
+    - S32K144EVB-Q100
+    
+    ## Hardware Wiring ##
+    _____
+    The following connections must be done to for this example application to work:
+    
+    PIN FUNCTION    |	S32K144EVB-Q100	        |	ISELED Strip
+    ----------------|---------------|--------------
+    Data Pin	    | J5.2  PTE16   |   Data pin
+    Clock Pin       | J5.4  PTE15   |   Clock pin
+    
+    ## How to run ##
+    _____
+    #### 1. Importing the project into the workspace ####
+    After opening S32 Design Studio, go to \b File -> \b New \b S32DS \b Project \b From... and select \b iseled_freemaster_s32k144. Then click on \b Finish. \n
+    The project should now be copied into you current workspace.
+    #### 2. Generating the Processor Expert configuration ####
+    First go to \b Project \b Explorer View in S32 DS and select the current project(\b iseled_freemaster_s32k144). Then go to \b Project and click on \b Generate \b Processor \b Expert \b Code \n
+    Wait for the code generation to be completed before continuing to the next step.
+    #### 3. Building the project ####
+    Select the configuration to be built \b FLASH (Debug_FLASH) by left clicking on the downward arrow corresponding to the \b build button(@image hammer.png). 
+    Wait for the build action to be completed before continuing to the next step.
+    #### 4. Running the project ####
+    Go to \b Run and select \b Debug \b Configurations. There will be two debug configurations for this project:
+     Configuration Name | Description
+     -------------------|------------
+     \b iseled_freemaster_s32k144_debug_flash_pemicro | Debug the FLASH configuration using PEMicro debuggers 
+	 \b iseled_freemaster_s32k144_debug_flash_jlink | Debug the FLASH configuration using Segger Jlink debuggers
+    \n Select the desired debug configuration and click on \b Launch. Now the perspective will change to the \b Debug \b Perspective. \n
+	#### 5. Stop the project, reset the EVB and connect with Freemaster
+	#### 6. In Freemaster choose the right .elf file from Project -> Options -> MAP Files. Choose the file in Debug_FLASH
+    Use the controls to control the program flow.
+	#### 7. Program flow example ####
+	The first command to be issued must be digLED_Init. This command uses the testInitType parameters. 
+	After the digLED_Init has been called, the peak current can be set using the digLED_Set_Cur_Green and digLED_Set_Cur_Blue. 
+	The parameters for these functions are Green_Cur.Param and Blue_Cur.Param (0-15: 4 bit value).
+	After the peak current is set, the PWM values can be set using the digLED_Set_PWM_Red/Green/Blue commands and the associated parameters Red/Green/Blue_PWM.Param (0-4095: 12 bit value).
+	Once all the values are set, the Set_RGB function can be used to light up the LEDs. The parameters Set_RGB_Params.Red/Green/Blue (0-255: 8 bit value) can be used to set the wanted color, 
+	and the Set_RGB_Params.Address can be used to select a single LED, or all LEDs by using '0'.
+	For all parameters, the Address member is used to select an LED, or to broadcast the command to all LEDs by setting it to '0'.
+	For the V2 LEDs, Set_RGB can be used right after the digLED_Init function using the default values for current and PWM.
+    
+    @note For more detailed information related to S32 Design Studio usage please consult the available documentation.
+    
+
+*/
+
