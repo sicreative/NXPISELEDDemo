@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K1xx_15, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K1xx_15
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2020-06-25, 00:57, # CodeGen: 0
+**     Date/Time   : 2020-07-22, 21:53, # CodeGen: 75
 **     Contents    :
 **         digLED_Init_Interface  - digLED_ReturnType digLED_Init_Interface(uint8_t nrOfInterfaces,const...
 **         digLED_Init_Strip      - digLED_ReturnType digLED_Init_Strip(const digLED_InitType *...

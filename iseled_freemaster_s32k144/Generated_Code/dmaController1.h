@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K1xx_15, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K1xx_15
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2020-06-25, 00:57, # CodeGen: 0
+**     Date/Time   : 2020-07-22, 21:53, # CodeGen: 75
 **     Contents    :
 **         EDMA_DRV_Init                              - status_t EDMA_DRV_Init(edma_state_t *edmaState, const edma_user_config_t...
 **         EDMA_DRV_Deinit                            - status_t EDMA_DRV_Deinit(void);
@@ -89,8 +89,14 @@
 /*! @brief Physical channel number for channel configuration #1 */
 #define EDMA_CHN1_NUMBER   1U
 
+/*! @brief Physical channel number for channel configuration #2 */
+#define EDMA_CHN2_NUMBER   14U
+
+/*! @brief Physical channel number for channel configuration #3 */
+#define EDMA_CHN3_NUMBER   15U
+
 /*! @brief The total number of configured channels */
-#define EDMA_CONFIGURED_CHANNELS_COUNT   2U
+#define EDMA_CONFIGURED_CHANNELS_COUNT   4U
 
 /*! @brief Driver state structure which holds driver runtime data */
 extern edma_state_t dmaController1_State;
@@ -101,6 +107,12 @@ extern edma_chn_state_t dmaController1Chn0_State;
 /*! @brief eDma channel state structure 1. Holds channel runtime data */
 extern edma_chn_state_t dmaController1Chn1_State;
 
+/*! @brief eDma channel state structure 2. Holds channel runtime data */
+extern edma_chn_state_t dmaController1Chn2_State;
+
+/*! @brief eDma channel state structure 3. Holds channel runtime data */
+extern edma_chn_state_t dmaController1Chn3_State;
+
 /*! @brief Array of channel state structures */
 extern edma_chn_state_t * const edmaChnStateArray[EDMA_CONFIGURED_CHANNELS_COUNT];
 
@@ -109,6 +121,12 @@ extern edma_channel_config_t dmaController1Chn0_Config;
     
 /*! @brief eDma channel configuration 1 */
 extern edma_channel_config_t dmaController1Chn1_Config;
+    
+/*! @brief eDma channel configuration 2 */
+extern edma_channel_config_t dmaController1Chn2_Config;
+    
+/*! @brief eDma channel configuration 3 */
+extern edma_channel_config_t dmaController1Chn3_Config;
     
 /*! @brief Array of channel configuration structures */
 extern const edma_channel_config_t * const edmaChnConfigArray[EDMA_CONFIGURED_CHANNELS_COUNT];

@@ -3,7 +3,7 @@
   <Header>
     <Name>iseled_freemaster_s32k144</Name>
     <SavedBy>B55288</SavedBy>
-    <ModificationStamp>40</ModificationStamp>
+    <ModificationStamp>82</ModificationStamp>
     <Date>2015-10-14</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.2.RT7_b1743-0713</PEversion>
@@ -1519,7 +1519,7 @@
         <ItemSymbol>ADC0_adc_se_8</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
+        <Value>PTC0</Value>
         <SharedPrphMode>false</SharedPrphMode>
       </ItemState>
       <ItemState>
@@ -1540,7 +1540,7 @@
         <ItemSymbol>ADC0_adc_se_11</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
+        <Value>PTC3</Value>
         <SharedPrphMode>false</SharedPrphMode>
       </ItemState>
       <ItemState>
@@ -3214,14 +3214,14 @@
         <ItemSymbol>PTC_port_0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>PTC0</Value>
+        <Value>&lt;Automatic&gt;</Value>
         <SharedPrphMode>false</SharedPrphMode>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC_port_0_Dir</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>Output</Value>
+        <Value>&lt;Automatic&gt;</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC_port_1</ItemSymbol>
@@ -3247,20 +3247,20 @@
         <ItemSymbol>PTC_port_2_Dir</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
+        <Value>Output</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC_port_3</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>PTC3</Value>
+        <Value>&lt;Automatic&gt;</Value>
         <SharedPrphMode>false</SharedPrphMode>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC_port_3_Dir</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>Output</Value>
+        <Value>&lt;Automatic&gt;</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC_port_4</ItemSymbol>
@@ -6807,15 +6807,15 @@
         <ItemSymbol>PTC3_IRQC</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Interrupt Status Flag (ISF) is disabled.</Value>
+        <PinFuncPropStateId>state_0000</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC3_MUX</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Pin disabled (analog)</Value>
+        <PinFuncPropStateId>state_000</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC3_LK</ItemSymbol>
@@ -6828,22 +6828,22 @@
         <ItemSymbol>PTC3_PE</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Enabled</Value>
+        <PinFuncPropStateId>state_1</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC3_PS</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Pull Down</Value>
+        <PinFuncPropStateId>state_0</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC3_InitValue</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Low</Value>
+        <PinFuncPropStateId>state_0</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC3_DigitalFilter</ItemSymbol>
@@ -6882,8 +6882,8 @@
         <ItemSymbol>PTC2_MUX</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Alternative 1 (GPIO).</Value>
+        <PinFuncPropStateId>state_001</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC2_LK</ItemSymbol>
@@ -6896,22 +6896,22 @@
         <ItemSymbol>PTC2_PE</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Enabled</Value>
+        <PinFuncPropStateId>state_1</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC2_PS</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Pull Up</Value>
+        <PinFuncPropStateId>state_1</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC2_InitValue</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>High</Value>
+        <PinFuncPropStateId>state_1</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC2_DigitalFilter</ItemSymbol>
@@ -7382,8 +7382,8 @@
         <ItemSymbol>PTC1_MUX</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Alternative 1 (GPIO).</Value>
+        <PinFuncPropStateId>state_001</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC1_LK</ItemSymbol>
@@ -7410,8 +7410,8 @@
         <ItemSymbol>PTC1_InitValue</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Low</Value>
+        <PinFuncPropStateId>state_0</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC1_DigitalFilter</ItemSymbol>
@@ -7457,8 +7457,8 @@
         <ItemSymbol>PTC0_MUX</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>Alternative 1 (GPIO).</Value>
-        <PinFuncPropStateId>state_001</PinFuncPropStateId>
+        <Value>Pin disabled (analog)</Value>
+        <PinFuncPropStateId>state_000</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC0_LK</ItemSymbol>
@@ -7478,15 +7478,15 @@
         <ItemSymbol>PTC0_PS</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Pull Down</Value>
+        <PinFuncPropStateId>state_0</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC0_InitValue</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Low</Value>
+        <PinFuncPropStateId>state_0</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC0_DigitalFilter</ItemSymbol>
@@ -7499,8 +7499,8 @@
         <ItemSymbol>PTC0_ADC_Interleave</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Muxed in SIM_CHIPCTL</Value>
+        <PinFuncPropStateId>state_1</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTD9</ItemSymbol>
@@ -7764,8 +7764,8 @@
         <ItemSymbol>PTC16_InitValue</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>High</Value>
+        <PinFuncPropStateId>state_1</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC16_DigitalFilter</ItemSymbol>
@@ -8062,22 +8062,22 @@
         <ItemSymbol>PTC13_ISF</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Don't modify</Value>
+        <PinFuncPropStateId>state_0</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC13_IRQC</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>ISF flag and Interrupt when logic 1.</Value>
+        <PinFuncPropStateId>state_1100</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC13_MUX</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Alternative 1 (GPIO).</Value>
+        <PinFuncPropStateId>state_001</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC13_LK</ItemSymbol>
@@ -8130,15 +8130,15 @@
         <ItemSymbol>PTC12_ISF</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>Don't modify</Value>
+        <PinFuncPropStateId>state_0</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC12_IRQC</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
-        <PinFuncPropStateId>&lt;Automatic&gt;</PinFuncPropStateId>
+        <Value>ISF flag and Interrupt when logic 1.</Value>
+        <PinFuncPropStateId>state_1100</PinFuncPropStateId>
       </ItemState>
       <ItemState>
         <ItemSymbol>PTC12_MUX</ItemSymbol>
@@ -14532,8 +14532,8 @@
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <TypeSpecNameState>typePCS_DIV2_CLK</TypeSpecNameState>
-        <Index>2</Index>
-        <EnumSymbVal>CLK_SRC_SIRC_DIV2</EnumSymbVal>
+        <Index>3</Index>
+        <EnumSymbVal>CLK_SRC_FIRC_DIV2</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral17_MUL_SEL0</ItemSymbol>
@@ -14545,7 +14545,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral17_FUNC_CLK0</ItemSymbol>
-        <Value>8 MHz</Value>
+        <Value>48 MHz</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral5_CLK_Grp0</ItemSymbol>
@@ -14588,8 +14588,8 @@
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <TypeSpecNameState>typePCS_DIV2_CLK</TypeSpecNameState>
-        <Index>2</Index>
-        <EnumSymbVal>CLK_SRC_SIRC_DIV2</EnumSymbVal>
+        <Index>3</Index>
+        <EnumSymbVal>CLK_SRC_FIRC_DIV2</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral5_MUL_SEL0</ItemSymbol>
@@ -14601,7 +14601,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral5_FUNC_CLK0</ItemSymbol>
-        <Value>8 MHz</Value>
+        <Value>48 MHz</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral31_CLK_Grp0</ItemSymbol>
@@ -15401,7 +15401,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral13_FUNC_CLK0</ItemSymbol>
-        <Value>3 MHz</Value>
+        <Value>48 MHz</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral7_CLK_Grp0</ItemSymbol>
@@ -15612,8 +15612,8 @@
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <TypeSpecNameState>typePCS_DIV2_CLK</TypeSpecNameState>
-        <Index>4</Index>
-        <EnumSymbVal>CLK_SRC_SPLL_DIV2</EnumSymbVal>
+        <Index>3</Index>
+        <EnumSymbVal>CLK_SRC_FIRC_DIV2</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral19_MUL_SEL0</ItemSymbol>
@@ -15635,7 +15635,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral19_FUNC_CLK0</ItemSymbol>
-        <Value>40 MHz</Value>
+        <Value>48 MHz</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral28_CLK_Grp0</ItemSymbol>
@@ -16276,8 +16276,8 @@
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <TypeSpecNameState>typeASYNC_FIRC_DIV</TypeSpecNameState>
-        <Index>4</Index>
-        <EnumSymbVal>SCG_ASYNC_CLOCK_DIV_BY_16</EnumSymbVal>
+        <Index>0</Index>
+        <EnumSymbVal>SCG_ASYNC_CLOCK_DIV_BY_1</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>SOSC_DIVIDER20</ItemSymbol>
@@ -16325,7 +16325,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>FIRCDIV2_CLK0</ItemSymbol>
-        <Value>3 MHz</Value>
+        <Value>48 MHz</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>SOSCDIV2_CLK0</ItemSymbol>
@@ -17988,7 +17988,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>FIRC_CLOCK_DIV2_0</ItemSymbol>
-        <Value>3000000</Value>
+        <Value>48000000</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>RTCClockValuesGrp0</ItemSymbol>
@@ -18298,11 +18298,11 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>ADC0_CLK0</ItemSymbol>
-        <Value>8000000</Value>
+        <Value>48000000</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>ADC1_CLK0</ItemSymbol>
-        <Value>8000000</Value>
+        <Value>48000000</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>FLEXIO0_CLK0</ItemSymbol>
@@ -18330,7 +18330,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>LPIT0_CLK0</ItemSymbol>
-        <Value>3000000</Value>
+        <Value>48000000</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPSPI0_CLK0</ItemSymbol>
@@ -18346,7 +18346,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>LPTMR0_CLK0</ItemSymbol>
-        <Value>40000000</Value>
+        <Value>48000000</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPUART0_CLK0</ItemSymbol>
@@ -18467,7 +18467,7 @@
         <ItemSymbol>ProjectComponentsCountChanged</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>1</Value>
+        <Value>2</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>ModuleName_ADC</ItemSymbol>
@@ -19670,7 +19670,7 @@
       <ItemState>
         <ItemSymbol>edmaChannelsConfig</ItemSymbol>
         <ReadOnly>false</ReadOnly>
-        <ListItemCount>2</ListItemCount>
+        <ListItemCount>4</ListItemCount>
         <UserReadOnly>false</UserReadOnly>
         <Expanded>true</Expanded>
         <ItemsTypeState>Beans\edma\Items\S32_SDK_DMA_16CH\edma_channelCfg.item</ItemsTypeState>
@@ -19717,22 +19717,22 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>chnRequest0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
+        <ReadOnly>true</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <TypeSpecNameState>type_edma_channel_request_s32k144</TypeSpecNameState>
-        <Index>0</Index>
-        <EnumSymbVal>EDMA_REQ_DISABLED</EnumSymbVal>
+        <Index>3</Index>
+        <EnumSymbVal>EDMA_REQ_LPUART1_RX</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>CallbackName0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
+        <ReadOnly>true</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <Value>NULL</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>CallbackParam0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
+        <ReadOnly>true</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <Value>NULL</Value>
       </ItemState>
@@ -19786,27 +19786,161 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>chnRequest1</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
+        <ReadOnly>true</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <TypeSpecNameState>type_edma_channel_request_s32k144</TypeSpecNameState>
-        <Index>0</Index>
-        <EnumSymbVal>EDMA_REQ_DISABLED</EnumSymbVal>
+        <Index>4</Index>
+        <EnumSymbVal>EDMA_REQ_LPUART1_TX</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>CallbackName1</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
+        <ReadOnly>true</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <Value>NULL</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>CallbackParam1</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
+        <ReadOnly>true</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <Value>NULL</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>PeriodicTrigger1</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>1</Index>
+        <Value>false</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>edmaChannelCfg_2</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Value>true</Value>
+        <Expanded>true</Expanded>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>ChnStateStruct2</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>dmaController1Chn2_State</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>ChnConfigStructName2</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>dmaController1Chn2_Config</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>ChnConfigStructType2</ItemSymbol>
+        <Value>edma_channel_config_t</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>chnNumber2</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>14</Index>
+        <EnumSymbVal>14U</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>chnPriority2</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <EnumSymbVal>EDMA_CHN_DEFAULT_PRIORITY</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>chnRequest2</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <TypeSpecNameState>type_edma_channel_request_s32k144</TypeSpecNameState>
+        <Index>3</Index>
+        <EnumSymbVal>EDMA_REQ_LPUART1_RX</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>CallbackName2</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>NULL</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>CallbackParam2</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>NULL</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>PeriodicTrigger2</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>1</Index>
+        <Value>false</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>edmaChannelCfg_3</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Value>true</Value>
+        <Expanded>true</Expanded>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>ChnStateStruct3</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>dmaController1Chn3_State</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>ChnConfigStructName3</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>dmaController1Chn3_Config</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>ChnConfigStructType3</ItemSymbol>
+        <Value>edma_channel_config_t</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>chnNumber3</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>15</Index>
+        <EnumSymbVal>15U</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>chnPriority3</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <EnumSymbVal>EDMA_CHN_DEFAULT_PRIORITY</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>chnRequest3</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <TypeSpecNameState>type_edma_channel_request_s32k144</TypeSpecNameState>
+        <Index>3</Index>
+        <EnumSymbVal>EDMA_REQ_LPUART1_RX</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>CallbackName3</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>NULL</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>CallbackParam3</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>NULL</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>PeriodicTrigger3</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
@@ -20290,8 +20424,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>1</Index>
-        <EnumSymbVal>0U</EnumSymbVal>
+        <Index>15</Index>
+        <EnumSymbVal>14U</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>txDMAChannelMaster0</ItemSymbol>
@@ -20299,8 +20433,8 @@
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <TypeSpecNameState>DMAchannel_t</TypeSpecNameState>
-        <Index>2</Index>
-        <EnumSymbVal>1U</EnumSymbVal>
+        <Index>16</Index>
+        <EnumSymbVal>15U</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>IseledCallback0</ItemSymbol>
@@ -21148,7 +21282,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>12</Value>
+        <Value>14</Value>
         <Base>DEC</Base>
       </ItemState>
       <ItemState>
@@ -21196,8 +21330,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>1</Index>
-        <Value>false</Value>
+        <Index>0</Index>
+        <Value>true</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>VoltageReference0</ItemSymbol>
@@ -21234,7 +21368,7 @@
       <ItemState>
         <ItemSymbol>adcChnCfg</ItemSymbol>
         <ReadOnly>false</ReadOnly>
-        <ListItemCount>1</ListItemCount>
+        <ListItemCount>3</ListItemCount>
         <UserReadOnly>false</UserReadOnly>
         <Expanded>true</Expanded>
       </ItemState>
@@ -21269,8 +21403,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>1</Index>
-        <Value>false</Value>
+        <Index>0</Index>
+        <Value>true</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>InputChannel0</ItemSymbol>
@@ -21280,6 +21414,92 @@
         <TypeSpecNameState>S32K1xx_SDK01_typeadc_inputchannel_16_t</TypeSpecNameState>
         <Index>12</Index>
         <EnumSymbVal>ADC_INPUTCHAN_EXT12</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>adcChnCfg_1</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Value>true</Value>
+        <Expanded>true</Expanded>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>adcChnCfg_NAME1</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>adConv1_ChnConfig1</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>adcChnCfg_TYPE1</ItemSymbol>
+        <Value>adc_chan_config_t</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>adcChnCfg_READONLY1</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>Interrupt1</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>1</Index>
+        <Value>false</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>InputChannel1</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <TypeSpecNameState>S32K1xx_SDK01_typeadc_inputchannel_16_t</TypeSpecNameState>
+        <Index>8</Index>
+        <EnumSymbVal>ADC_INPUTCHAN_EXT8</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>adcChnCfg_2</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Value>true</Value>
+        <Expanded>true</Expanded>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>adcChnCfg_NAME2</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>adConv1_ChnConfig2</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>adcChnCfg_TYPE2</ItemSymbol>
+        <Value>adc_chan_config_t</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>adcChnCfg_READONLY2</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>Interrupt2</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>1</Index>
+        <Value>false</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>InputChannel2</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <TypeSpecNameState>S32K1xx_SDK01_typeadc_inputchannel_16_t</TypeSpecNameState>
+        <Index>11</Index>
+        <EnumSymbVal>ADC_INPUTCHAN_EXT11</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>adcHwCompCfg_group</ItemSymbol>
@@ -21319,16 +21539,16 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
+        <Index>1</Index>
+        <Value>false</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>compareEnable0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>1</Index>
-        <Value>false</Value>
+        <Index>0</Index>
+        <Value>true</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>compareGreaterThanEnable0</ItemSymbol>
@@ -21343,8 +21563,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>1</Index>
-        <Value>false</Value>
+        <Index>0</Index>
+        <Value>true</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>compVal10</ItemSymbol>
@@ -21770,8 +21990,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>LPUART_USING_INTERRUPTS</EnumSymbVal>
+        <Index>1</Index>
+        <EnumSymbVal>LPUART_USING_DMA</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>BaudRate0</ItemSymbol>
@@ -21821,7 +22041,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>RxDMAChannel0</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
+        <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <Index>0</Index>
@@ -21829,12 +22049,12 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>TxDMAChannel0</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
+        <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <TypeSpecNameState>DMAchannel_t</TypeSpecNameState>
-        <Index>0</Index>
-        <EnumSymbVal>0U</EnumSymbVal>
+        <Index>1</Index>
+        <EnumSymbVal>1U</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>LinkItem</ItemSymbol>

@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : SDK_S32K1xx_15
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2020-07-04, 14:46, # CodeGen: 21
+**     Date/Time   : 2020-07-10, 22:31, # CodeGen: 58
 **     Abstract    :
 **
 **
@@ -108,7 +108,20 @@ pin_settings_config_t g_pin_mux_InitConfigArr[NUM_OF_CONFIGURED_PINS] =
     {
         .base          = PORTC,
         .pinPortIdx    = 3u,
-        .pullConfig    = PORT_INTERNAL_PULL_NOT_ENABLED,
+        .pullConfig    = PORT_INTERNAL_PULL_DOWN_ENABLED,
+        .passiveFilter = false,
+        .driveSelect   = PORT_LOW_DRIVE_STRENGTH,
+        .mux           = PORT_PIN_DISABLED,
+        .pinLock       = false,
+        .intConfig     = PORT_DMA_INT_DISABLED,
+        .clearIntFlag  = false,
+        .gpioBase      = NULL,
+        .digitalFilter = false,
+    },
+    {
+        .base          = PORTC,
+        .pinPortIdx    = 2u,
+        .pullConfig    = PORT_INTERNAL_PULL_UP_ENABLED,
         .passiveFilter = false,
         .driveSelect   = PORT_LOW_DRIVE_STRENGTH,
         .mux           = PORT_MUX_AS_GPIO,
@@ -118,7 +131,7 @@ pin_settings_config_t g_pin_mux_InitConfigArr[NUM_OF_CONFIGURED_PINS] =
         .gpioBase      = PTC,
         .direction     = GPIO_OUTPUT_DIRECTION,
         .digitalFilter = false,
-        .initValue     = 0u,
+        .initValue     = 1u,
     },
     {
         .base          = PORTC,
@@ -141,14 +154,12 @@ pin_settings_config_t g_pin_mux_InitConfigArr[NUM_OF_CONFIGURED_PINS] =
         .pullConfig    = PORT_INTERNAL_PULL_NOT_ENABLED,
         .passiveFilter = false,
         .driveSelect   = PORT_LOW_DRIVE_STRENGTH,
-        .mux           = PORT_MUX_AS_GPIO,
+        .mux           = PORT_MUX_ADC_INTERLEAVE,
         .pinLock       = false,
         .intConfig     = PORT_DMA_INT_DISABLED,
         .clearIntFlag  = false,
-        .gpioBase      = PTC,
-        .direction     = GPIO_OUTPUT_DIRECTION,
+        .gpioBase      = NULL,
         .digitalFilter = false,
-        .initValue     = 0u,
     },
     {
         .base          = PORTC,
@@ -158,7 +169,7 @@ pin_settings_config_t g_pin_mux_InitConfigArr[NUM_OF_CONFIGURED_PINS] =
         .driveSelect   = PORT_LOW_DRIVE_STRENGTH,
         .mux           = PORT_MUX_AS_GPIO,
         .pinLock       = false,
-        .intConfig     = PORT_DMA_INT_DISABLED,
+        .intConfig     = PORT_INT_LOGIC_ONE,
         .clearIntFlag  = false,
         .gpioBase      = PTC,
         .direction     = GPIO_INPUT_DIRECTION,
@@ -172,7 +183,7 @@ pin_settings_config_t g_pin_mux_InitConfigArr[NUM_OF_CONFIGURED_PINS] =
         .driveSelect   = PORT_LOW_DRIVE_STRENGTH,
         .mux           = PORT_MUX_AS_GPIO,
         .pinLock       = false,
-        .intConfig     = PORT_DMA_INT_DISABLED,
+        .intConfig     = PORT_INT_LOGIC_ONE,
         .clearIntFlag  = false,
         .gpioBase      = PTC,
         .direction     = GPIO_INPUT_DIRECTION,

@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K1xx_15, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K1xx_15
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2020-07-01, 15:45, # CodeGen: 8
+**     Date/Time   : 2020-07-12, 21:17, # CodeGen: 62
 **
 **     Copyright 1997 - 2015 Freescale Semiconductor, Inc. 
 **     Copyright 2016-2017 NXP 
@@ -49,27 +49,37 @@
 /*! adConv1 configuration structure */
 const adc_converter_config_t adConv1_ConvConfig0 = {
   .clockDivide = ADC_CLK_DIVIDE_1,
-  .sampleTime = 12U,
+  .sampleTime = 14U,
   .resolution = ADC_RESOLUTION_12BIT,
   .inputClock = ADC_CLK_ALT_1,
   .trigger = ADC_TRIGGER_SOFTWARE,
   .pretriggerSel = ADC_PRETRIGGER_SEL_PDB,
   .triggerSel = ADC_TRIGGER_SEL_PDB,
-  .dmaEnable = false,
+  .dmaEnable = true,
   .voltageRef = ADC_VOLTAGEREF_VREF,
   .continuousConvEnable = false,
   .supplyMonitoringEnable = false,
 };
 
 const adc_chan_config_t adConv1_ChnConfig0 = {
-  .interruptEnable = false,
+  .interruptEnable = true,
   .channel = ADC_INPUTCHAN_EXT12,
 };
 
-const adc_compare_config_t adConv1_HwCompConfig0 = {
-  .compareEnable = false,
+const adc_chan_config_t adConv1_ChnConfig1 = {
+  .interruptEnable = false,
+  .channel = ADC_INPUTCHAN_EXT8,
+};
+
+const adc_chan_config_t adConv1_ChnConfig2 = {
+  .interruptEnable = false,
+  .channel = ADC_INPUTCHAN_EXT11,
+};
+
+adc_compare_config_t adConv1_HwCompConfig0 = {
+  .compareEnable = true,
   .compareGreaterThanEnable = false,
-  .compareRangeFuncEnable = false,
+  .compareRangeFuncEnable = true,
   .compVal1 = 0U,
   .compVal2 = 0U,
 };
