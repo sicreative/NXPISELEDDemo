@@ -97,7 +97,7 @@
       <File Name="SDK/platform/drivers/src/flexio/flexio_hw_access.h" FileDate="2020-06-23, 03:08:15" FileAge="1592852895780" FileType="262144" />
       <File Name="SDK/platform/drivers/src/power/S32K1xx/power_scg_hw_access.h" FileDate="2020-06-23, 03:08:16" FileAge="1592852896295" FileType="262144" />
       <File Name="SDK/platform/drivers/src/lpit/lpit_driver.c" FileDate="2020-06-23, 03:08:15" FileAge="1592852895999" FileType="262144" />
-      <File Name="Sources/main.c" FileDate="2020-07-25, 00:13:38" FileAge="1595607218786" FileType="128" />
+      <File Name="Sources/main.c" FileDate="2020-07-26, 22:57:01" FileAge="1595775421072" FileType="128" />
       <File Name="SDK/platform/drivers/inc/power_manager.h" FileDate="2020-06-23, 03:08:15" FileAge="1592852895327" FileType="262144" />
       <File Name="SDK/platform/drivers/src/power/S32K1xx/power_rcm_hw_access.h" FileDate="2020-06-23, 03:08:16" FileAge="1592852896280" FileType="262144" />
       <File Name="Generated_Code/pwrMan1.h" FileDate="2020-06-25, 00:57:29" FileAge="1593017849998" FileType="45637" CompNumb="21" />
@@ -109,20 +109,20 @@
       <File Name="Generated_Code/iseled1.c" FileDate="2020-07-22, 21:53:25" FileAge="1595426005252" FileType="45637" CompNumb="29" />
       <File Name="Documentation/iseled_freemaster_s32k144_Settings.xml" FileDate="2020-07-02, 15:32:22" FileAge="1593675142220" FileType="3072" />
       <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2020-06-23, 03:08:15" FileAge="1592852895327" FileType="262144" />
-      <File Name="SDK/platform/drivers/inc/adc_driver.h" FileDate="2020-06-23, 03:08:15" FileAge="1592852895077" FileType="262144" />
       <File Name="SDK/platform/pal/src/timing/timing_irq.h" FileDate="2020-06-23, 03:08:16" FileAge="1592852896780" FileType="262144" />
-      <File Name="SDK/platform/drivers/src/lpuart/lpuart_irq.h" FileDate="2020-06-23, 03:08:16" FileAge="1592852896139" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/adc_driver.h" FileDate="2020-06-23, 03:08:15" FileAge="1592852895077" FileType="262144" />
       <File Name="SDK/platform/drivers/src/clock/S32K1xx/pcc_hw_access.h" FileDate="2020-06-23, 03:08:15" FileAge="1592852895389" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/lpuart/lpuart_irq.h" FileDate="2020-06-23, 03:08:16" FileAge="1592852896139" FileType="262144" />
       <File Name="Generated_Code/timing_pal1.h" FileDate="2020-06-25, 00:57:29" FileAge="1593017849992" FileType="45637" CompNumb="30" />
-      <File Name="SDK/platform/drivers/inc/interrupt_manager.h" FileDate="2020-06-23, 03:08:15" FileAge="1592852895218" FileType="262144" />
       <File Name="SDK/platform/devices/common/s32_core_cm4.h" FileDate="2020-06-23, 03:08:13" FileAge="1592852893542" FileType="262144" />
-      <File Name="SDK/platform/drivers/src/edma/edma_irq.h" FileDate="2020-06-23, 03:08:15" FileAge="1592852895530" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/interrupt_manager.h" FileDate="2020-06-23, 03:08:15" FileAge="1592852895218" FileType="262144" />
       <File Name="SDK/platform/pal/src/timing/timing_irq.c" FileDate="2020-06-23, 03:08:16" FileAge="1592852896764" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_irq.h" FileDate="2020-06-23, 03:08:15" FileAge="1592852895530" FileType="262144" />
       <File Name="SDK/platform/drivers/src/lpuart/lpuart_irq.c" FileDate="2020-06-23, 03:08:16" FileAge="1592852896139" FileType="262144" />
       <File Name="Generated_Code/timing_pal1.c" FileDate="2020-06-25, 00:57:29" FileAge="1593017849990" FileType="45637" CompNumb="30" />
       <File Name="SDK/platform/drivers/src/edma/edma_irq.c" FileDate="2020-06-23, 03:08:15" FileAge="1592852895514" FileType="262144" />
-      <File Name="SDK/rtos/osif/osif.h" FileDate="2020-06-23, 03:08:17" FileAge="1592852897186" FileType="262144" />
       <File Name="Generated_Code/timing_pal_cfg.h" FileDate="2020-06-25, 00:57:29" FileAge="1593017849981" FileType="45637" CompNumb="1" />
+      <File Name="SDK/rtos/osif/osif.h" FileDate="2020-06-23, 03:08:17" FileAge="1592852897186" FileType="262144" />
       <File Name="SDK/platform/devices/callbacks.h" FileDate="2020-06-23, 03:08:13" FileAge="1592852893527" FileType="262144" />
       <File Name="SDK/platform/drivers/src/edma/edma_driver.c" FileDate="2020-06-23, 03:08:15" FileAge="1592852895499" FileType="262144" />
       <File Name="SDK/platform/drivers/src/iseled/gcc/libiseled_S32K14x.a" FileDate="2019-10-24, 05:27:06" FileAge="1571866026000" FileType="262144" />
@@ -131,5 +131,5 @@
       <File Name="SDK/platform/drivers/src/lpuart/lpuart_driver.c" FileDate="2020-06-23, 03:08:16" FileAge="1592852896108" FileType="262144" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>82</CodeGenReference>
+  <CodeGenReference>83</CodeGenReference>
 </CodeGenerationInfo>

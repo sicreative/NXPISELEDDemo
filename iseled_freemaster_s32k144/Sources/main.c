@@ -911,7 +911,7 @@ void updateColorTick(void){
 			/*evaluation over, sample reset the led driver*/
 			digLED_Init_Interface(NUMBER_OF_INTERFACES, iseled1_InitConfig);
 
-			printf("Reset digLED driver while evaluation over\rgb.red\n");
+			printf("Reset digLED driver while evaluation over\r\n");
 
 				/* Initialize strip */
 				digLEDResultStrip1.chainLength = nrOfLEDs;
@@ -1137,7 +1137,7 @@ void showLedInfo(void){
 		}
 
 
-		printf("\rgb.red\n");
+		printf("\r\n");
 	}
 
 
@@ -1168,7 +1168,7 @@ void showLedInfo(void){
 		}
 
 
-		printf("\rgb.red\n");
+		printf("\r\n");
 	}
 
 
@@ -1214,7 +1214,7 @@ void showLedInfo(void){
 			}
 
 
-		printf("\rgb.red\n");
+		printf("\r\n");
 
 
 
@@ -1266,7 +1266,7 @@ void showLedInfo(void){
 				}
 
 
-				printf("\rgb.red\n");
+				printf("\r\n");
 
 
 
@@ -1299,7 +1299,7 @@ void touchPadControl(void)
 
 
 
-		  printf("touch change #0\rgb.red\n");
+		  printf("touch change #0\r\n");
 
 
 	  }else if (!previousElectrodeValue[1] && electrodeTouchQualified[1]){
@@ -1309,7 +1309,7 @@ void touchPadControl(void)
 		  else if (ledMode<NR_OF_MODES)
 			  ++ledMode;
 
-		  printf("touch change #1\rgb.red\n");
+		  printf("touch change #1\r\n");
 
 	  }
 
